@@ -1,0 +1,21 @@
+" common config
+set number
+set cursorline
+colorscheme torte
+
+" config for tab and indent
+set shiftwidth=4
+set tabstop=4
+set softtabstop=4
+set expandtab
+
+
+" config for pathogen
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
+
+" config for NERDTree
+map <F3> :NERDTreeMirror<CR>
+map <F3> :NERDTreeToggle<CR>
+
